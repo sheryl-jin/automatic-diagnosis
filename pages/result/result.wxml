@@ -1,0 +1,16 @@
+<!--miniprogram/pages/result/result.wxml-->
+
+<view class="viewTitle">
+    <text class="view-Name">查询结果</text>
+    <view class="lineview" > </view>
+</view>
+<view class='bg_box'>
+    <image src='../../images/back.jpg'></image>
+</view>
+<div class="flex-nowrap" style="display:flex;justifycontent=center">
+<button style="background-color:#f6f6f6" bindtap="handback">
+<navigator url="/pages/home/home" >返回</navigator>
+</button>
+</div>
+
+  

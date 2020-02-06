@@ -1,0 +1,41 @@
+/* miniprogram/pages/home/home.wxss */
+/* miniprogram/style/shouye.wxss */
+.box{
+  
+  font-size: 50rpx;
+  color:black;
+}
+.box1{
+  font-size:58rpx;
+  color:darkblue;
+}
+.bg_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+} 
+page{
+    overflow: hidden
+}
+
+.bg_box>image{
+    width: 100%;
+    height: 100%;
+}
+swiper{
+  width:100;
+  height:300px;
+}
+
+swiper-item{
+  width:100%;
+  height:290px;
+}
+
+image{
+  width:100%;
+  height:310px;
+}

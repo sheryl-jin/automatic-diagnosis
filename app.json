@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/result/result"
+  ],
+  "window": {
+    "backgroundColor": "blue",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "医疗诊断系统",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#0000FF",
+    "list": [
+    {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "icon/icon/home.png",
+      "selectedIconPath": "icon/icon/home1.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "搜索",
+      "iconPath": "icon/icon/index.png",
+      "selectedIconPath": "icon/icon/index1.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

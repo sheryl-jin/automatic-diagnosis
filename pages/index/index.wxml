@@ -1,0 +1,22 @@
+<!--miniprogram/pages/index/index.wxml-->
+<text>\n\n</text>
+<view class="item">请输入要查询的病症名称或患者症状</view>
+
+<view class ="box">
+<input type='text' placeholder="请输入检索内容"
+bindinput="handinput"
+bindfocus="handfocus"
+bindblur="handblur"> </input>
+</view>
+<text>\n</text>
+<div class="flex-nowrap" style="display:flex;justifycontent=center">
+<button style="background-color:#f6f6f6">
+<navigator url='/pages/result/result' >确定</navigator>
+
+</button>
+</div>
+
+<view class='bg_box'>
+    <image src='../../images/back.jpg'></image>
+</view>
+<view>{{infoMess}}</view>

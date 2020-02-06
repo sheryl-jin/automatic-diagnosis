@@ -1,0 +1,24 @@
+<!--miniprogram/pages/home/home.wxml-->
+<text>\n</text>
+<text class="box">Welcome to：\n</text>
+<text class="box1">Automatic classification system for medical field！</text>
+
+<view class='bg_box'>
+    <image src='../../images/back.jpg'></image>
+</view>
+<text>\n\n</text>
+<swiper autoplay indicator-dots indicator-color="blue" indicator-active-color="red" circular interval="2500">
+  <swiper-item><image mode="widthfix" src="../../images/1.png"></image></swiper-item>
+  <swiper-item><image mode="widthfix" src="../../images/2.png"></image></swiper-item>
+  <swiper-item><image mode="widthfix" src="../../images/3.png"></image></swiper-item>
+  <swiper-item><image mode="widthfix" src="../../images/4.png"></image></swiper-item>
+  <swiper-item><image mode="widthfix" src="../../images/5.png"></image></swiper-item>
+  <swiper-item><image mode="widthfix" src="../../images/6.png"></image></swiper-item>
+</swiper>
+
+<text>\n</text>
+
+<button size="default"   bindtap="handback" style="background-color:#87cefa">点击进入搜索界面</button>
+
+
+
